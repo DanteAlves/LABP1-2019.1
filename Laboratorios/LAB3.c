@@ -47,8 +47,8 @@ void decrementarmat(int matriz[DIM][DIM]){
 
         }
     }
-        for(i=0; i<DIM; i++){
-         for(j=0;j<DIM;j++){
+        for(i=3; i>=0;i--){
+         for(j=3;j>=0;j--){
             if(matriz[i][j]==maior){
                   matriz[i][j]--;
                   aux=1;
