@@ -2,7 +2,7 @@
 #include <strings.h>
 #include <windows.h>
 
-char instancias(int n,int k){
+void instancias(int n,int k){
 
 char aluno[25],reprovado[25];
 int problemas,menor,sair;
